@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>ﾋﾞﾙﾄﾞのﾛｸﾞ</h1>
+<h3>
+--------------------構成: PeLa - Win32 Debug--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+一時ﾌｧｲﾙ "C:\WINDOWS\TEMP\RSP3340.TMP" を作成し、次の内容を記録します
+[
+/nologo /MLd /W4 /GX /O2 /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/PeLa.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"D:\AirCraft\peller\PeLa\Change_Gammas.c"
+"D:\AirCraft\peller\PeLa\Geometry_design.c"
+"D:\AirCraft\peller\PeLa\Get_blade_section_data.c"
+"D:\AirCraft\peller\PeLa\Induced.c"
+"D:\AirCraft\peller\PeLa\Interface.c"
+"D:\AirCraft\peller\PeLa\Load_Airfoil_Data.c"
+"D:\AirCraft\peller\PeLa\Main.c"
+"D:\AirCraft\peller\PeLa\Off_Design_Performance.c"
+"D:\AirCraft\peller\PeLa\Optimeze_Gamma_Distribution.c"
+"D:\AirCraft\peller\PeLa\Set_Point.c"
+"D:\AirCraft\peller\PeLa\Spec_read_write.c"
+"D:\AirCraft\peller\PeLa\Spline.c"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP3340.TMP" 
+一時ﾌｧｲﾙ "C:\WINDOWS\TEMP\RSP3341.TMP" を作成し、次の内容を記録します
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/PeLa.pdb" /debug /machine:I386 /out:"Debug/PeLa.exe" /pdbtype:sept 
+.\Debug\Change_Gammas.obj
+.\Debug\Geometry_design.obj
+.\Debug\Get_blade_section_data.obj
+.\Debug\Induced.obj
+.\Debug\Interface.obj
+.\Debug\Load_Airfoil_Data.obj
+.\Debug\Main.obj
+.\Debug\Off_Design_Performance.obj
+.\Debug\Optimeze_Gamma_Distribution.obj
+.\Debug\Set_Point.obj
+.\Debug\Spec_read_write.obj
+.\Debug\Spline.obj
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @C:\WINDOWS\TEMP\RSP3341.TMP" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ｺﾝﾊﾟｲﾙ中...
+Change_Gammas.c
+Geometry_design.c
+Get_blade_section_data.c
+Induced.c
+Interface.c
+Load_Airfoil_Data.c
+Main.c
+D:\AirCraft\peller\PeLa\Load_Airfoil_Data.c(121) : warning C4701: 値が割り当てられていないﾛｰｶﾙな変数 'line_l' に対する参照が行われる可能性があります。
+D:\AirCraft\peller\PeLa\Load_Airfoil_Data.c(120) : warning C4701: 値が割り当てられていないﾛｰｶﾙな変数 'line_u' に対する参照が行われる可能性があります。
+Off_Design_Performance.c
+Optimeze_Gamma_Distribution.c
+Set_Point.c
+D:\AirCraft\peller\PeLa\Optimeze_Gamma_Distribution.c(93) : warning C4701: 値が割り当てられていないﾛｰｶﾙな変数 'co' に対する参照が行われる可能性があります。
+Spec_read_write.c
+Spline.c
+ﾘﾝｸ中...
+
+
+
+<h3>結果</h3>
+PeLa.exe - ｴﾗｰ 0、警告 3
+</pre>
+</body>
+</html>
